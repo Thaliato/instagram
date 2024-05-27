@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.caja1 {
+    height: 100vh;
+}
+
+.caja2 {
+    height: 100vh;
+
+}
+
+.caja3 {
+
+    height: 100vh;
+}
+
+.caja4 {
+
+    height: 60px;
+}
+
+.caja5 {
+    height: 60px;
+}
+
+.caja6 {
+    height: 110px;
+}
+
+.caja7 {
+    height: 600px;
+}
+
+.caja8 {
+    height: 100vh;
+}
+
+.caja9 {
+    height: 655px;
+}
+
+.caja10 {
+
+    height: 100vh;
+}
+
+.cajaEspacio {
+    height: 20px;
+}
+
+/*  ------------------------- Estilos de circulos  -------------------------*/
+
+ul {
+    list-style: none;
+}
+
+.circulos {
+    border-radius: 100%;
+    height: 65px;
+    width: 65px;
+    border: solid 2px;
+    border-color: #f53a88 #df10f1 #f53a88 #fa8435;
+    padding: 2px;
+    margin-bottom: 4px;
+    margin-top: 20px;
+}
+
+.nombrePerfil  {
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: auto;
+}
+
+li {
+    padding-left: 15px;
+}
+/* ------------------------- Estilos de circulos  -------------------------*/
+
+/* ------------------------- Perfil pequeño  -------------------------*/
+
+.imagenCuenta {
+    margin-top: 18px;
+    border-radius: 100%;
+    height: 42px;
+    width: 42px;
+    border: solid 2px;
+    border-color: #f53a88 #df10f1 #f53a88 #fa8435 ;
+    padding: 2px;
+}
+.nombreCuenta {
+    padding: 20px 0 0 8px;
+    font-size: 13px;
+    margin-bottom: auto;
+}
+
+.hora { 
+    padding: 20px 0 0 10px;
+    font-weight: lighter;
+    height: 50px;
+    color: gray;
+}
+
+.puntosCuenta {
+    margin: 35% 0 0;
+    text-align: right;
+    font-size: 75%;
+    font-weight: 600;
+}
+
+.verificado {
+    padding: 15px 0 0 5px;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.comentario {
+    font-size: 90% ;
+}
+
+.comentario_1 {
+    padding-top: 5px;
+    font-size: 90%;
+    color: grey;
+}
+
+/* ------------------------- Perfil pequeño  -------------------------*/
+
+/* ------------------------- Publicacion  -------------------------*/
+.post {
+    height: auto;
+    margin-top: 8px;
+    border-radius: 0.7%;
+}
+
+.vanderin {
+    float: right;
+}
+
+/* ------------------------- Publicacion  -------------------------*/
+.imagenCuenta_2 {
+    margin-top: 12px;
+    border-radius: 100%;
+    height: 44px;
+    width: 44px;
+}
+
+.textoAzul {
+    padding-top: 25px;
+    font-size: 90%;
+}
+
+.nombreCuenta_1 {
+    padding: 15px 0 0 8px;
+    font-size: 13px;
+    margin-bottom: auto;
+}
+
+.sugerencia {
+    font-size: 90%;
+    color: gray;
+}
+
+.cajaEspacio_1 {
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+@media (min-width: 150px) and (max-width: 960px){
+    .ocultarNombre {
+     display: none;
+    }
+}
+
+@media (max-width: 90px) and (min-width: 149px){
+    .insta {
+     display: none;
+    }
+}
+
+@media (min-width: 150px) and (max-width: 1199px){
+    .ocultarCaja3 {
+     display: none;
+    }
+}
+
+@media (min-width: 150px) and (max-width: 768px){
+    .ocultarCaja1 {
+     display: none;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 6400px){
+    .ocultarContenedor {
+     display: none;
+    }
+}
